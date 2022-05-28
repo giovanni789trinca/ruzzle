@@ -1,0 +1,26 @@
+.btn {
+  padding: 0.5rem 3rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn--end {
+  color: #1864ab;
+  background-color: #e7f5ff;
+}
+
+.btn:hover {
+  transform: translate(0.2rem, -0.2rem);
+  box-shadow: -0.5rem 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translate(0.1rem, -0.1rem);
+  box-shadow: -0.1rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin: 7rem auto;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: fit-content;
+}

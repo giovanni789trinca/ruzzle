@@ -1,0 +1,22 @@
+/* COLORS 
+
+#a5d8ff
+#1864ab
+#1c7ed6
+#fab005
+#e67700
+
+
+
+
+*/
+
+.card {
+  background-image: linear-gradient(to right bottom, #a5d8ff, #1864ab);
+  margin: 0 auto;
+  max-width: 70rem;
+  height: 90vh;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0.7rem 5rem 0.5rem #000;
+}

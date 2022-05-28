@@ -1,0 +1,35 @@
+.cell {
+  display: flex;
+  background-color: #fff;
+  width: 7rem;
+  height: 7rem;
+  align-self: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  box-shadow: -0.5rem 1rem 1rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.hovered {
+  background-image: linear-gradient(to right bottom, #fab005, #e67700);
+}
+
+.nobonus {
+  /* border: 0.5rem solid black; */
+}
+.low {
+  border: 0.5rem solid yellow;
+}
+.medium {
+  border: 0.5rem solid blue;
+}
+.high {
+  border: 0.5rem solid green;
+}
+.veryhigh {
+  border: 0.5rem solid red;
+}

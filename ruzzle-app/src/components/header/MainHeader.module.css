@@ -1,0 +1,10 @@
+.header {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1c7ed6;
+  height: 9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

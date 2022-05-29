@@ -23,13 +23,75 @@
 }
 .low {
   border: 0.5rem solid yellow;
+  position: relative;
 }
 .medium {
   border: 0.5rem solid blue;
+  position: relative;
 }
 .high {
   border: 0.5rem solid green;
+  position: relative;
 }
 .veryhigh {
   border: 0.5rem solid red;
+  position: relative;
+}
+
+.low::after {
+  content: "l";
+  font-size: 0.65rem;
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -20%;
+  left: 85%;
+  background-color: yellow;
+  align-items: center;
+  justify-content: center;
+}
+
+.medium::after {
+  content: "m";
+  font-size: 0.65rem;
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -20%;
+  left: 85%;
+  background-color: blue;
+  align-items: center;
+  justify-content: center;
+}
+.high::after {
+  content: "h";
+  font-size: 0.65rem;
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -20%;
+  left: 85%;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+}
+.veryhigh::after {
+  content: "vh";
+  font-size: 0.65rem;
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -20%;
+  left: 85%;
+  background-color: red;
+  align-items: center;
+  justify-content: center;
 }

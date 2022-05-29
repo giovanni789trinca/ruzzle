@@ -29,4 +29,5 @@ body {
     ),
     url("./../img/background.jpg");
   background-size: cover;
+  position: relative;
 }

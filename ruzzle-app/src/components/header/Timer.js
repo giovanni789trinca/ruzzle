@@ -3,11 +3,14 @@ import { BiTimer } from "react-icons/bi";
 import styles from "./Timer.module.css";
 import ReactDOM from "react-dom";
 import Countdown from "react-countdown";
+import { useHistory } from "react-router-dom";
 
 function Timer() {
+  const history = useHistory();
   const renderer = ({ hours, minutes, seconds, completed }) => {
     if (completed) {
       // Render a completed state
+      history.push("/");
       return <p>Time's up!</p>;
     } else {
       // Render a countdown

@@ -2,6 +2,9 @@ import { React, Fragment, useState, useEffect } from "react";
 import "./App.css";
 import MouseContext from "./MouseContext";
 import Game from "./pages/Game";
+import { Route } from "react-router-dom";
+import Home from "./pages/Home";
+import { Switch } from "react-router-dom";
 
 function shuffle(array) {
   let currentIndex = array.length,
@@ -118,7 +121,14 @@ function App() {
           score: score,
         }}
       >
-        <Game bonus={bonus} newBonusFun={onBonusSelected}></Game>
+        <Switch>
+          <Route path={"/"} exact>
+            <Home></Home>
+          </Route>
+          <Route path={"/game"} exact>
+            <Game bonus={bonus} newBonusFun={onBonusSelected}></Game>
+          </Route>
+        </Switch>
       </MouseContext.Provider>
     </Fragment>
   );
